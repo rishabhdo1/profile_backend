@@ -1,0 +1,21 @@
+
+{
+    "name": "Golu",
+    "age": 20,
+    "stories": [
+        {
+            "thumnail": "insta.com/story/1", 
+            "id": "st1"
+        },
+        {
+
+        }
+        
+    ],
+    "posts": [
+        {
+            "thumnail": "insta.com/posts/1",
+            "id": "po1"
+        }
+    ]
+}

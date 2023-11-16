@@ -1,0 +1,230 @@
+{
+  "UserStatus": {
+    "contact":0,
+    "new":1,
+    "verified":2,
+    "active": 3,
+    "inactive": 4
+  },
+  "device_type":{
+    "android":"android",
+    "ios":"ios",
+    "web":"web"
+  },
+  "user_contacts_status":{
+    "active":"ACTIVE",
+    "nolor":"NO_LOR"
+  },
+  "requestStatus": {
+    "requested": "REQUESTED",
+    "approved": "ACCEPTED",
+    "rejected": "REJECTED",
+    "new": "NEW",
+    "blocked": "BLOCKED",
+    "ignore": "IGNORE"
+  },
+  "masterStatus": {
+    "active": "ACTIVE",
+    "rejected": "REJECTED",
+    "inActive": "INACTIVE",
+    "underReview": "UNDER_REVIEW"
+  },
+  "organisationType": {
+    "college": "college",
+    "company": "company"
+  },
+  "NotificationId": {
+    "review": 1,
+    "requestScore": 2,
+    "chatMessage": 3,
+    "requestScoreAccept": 4,
+    "requestScoreReject": 5,
+    "scoreUpdate":6
+  },
+  "notificationTitle": {
+    "review": "Review",
+    "ScoreRequest": "Score Request"
+  },
+  "baseUrlSmsApi": "https://api.msg91.com/api/v2/sendsms",
+  "smsSenderName": "Trustz",
+  "route": 4,
+  "reviewMessage": "##PH1 has reviewed you on Trustze. To see your social score and review ##PH1, download ##PH2",
+  "tzPoints": {
+    "signup": "SIGNUP",
+    "assessment": "ASSESSMENT",
+    "basicProfile": "PROFILE_PERSONAL_BASIC",
+    "profilePersonalInterest": "PROFILE_PERSONAL_INTEREST",
+    "profilePersonalBio": "PROFILE_PERSONAL_BIO",
+    "profileEducation": "PROFILE_EDUCATION",
+    "profileWorkExperience": "PROFILE_WORK_EXPERIENCE",
+    "profileSkills": "PROFILE_SKILLS",
+    "profileBusinessInfo": "PROFILE_BUSINESS_INFO",
+    "review": "REVIEW",
+    "socialLink": "SOCIAL_LINK",
+    "requestScore": "REQUEST_SCORE",
+    "allowScore": "ALLOW_SCORE",
+    "email": "PROFILE_PERSONAL_EMAIL_ID",
+    "height": "PROFILE_PERSONAL_HEIGHT",
+    "weight": "PROFILE_PERSONAL_WEIGHT",
+    "fitness": "PROFILE_PERSONAL_FITNESS",
+    "drinking": "PROFILE_PERSONAL_DRINKING",
+    "smoking": "PROFILE_PERSONAL_SMOKING",
+    "religion": "PROFILE_PERSONAL_RELIGION",
+    "relationshipStatus": "PROFILE_PERSONAL_RELATIONSHIP_STATUS",
+    "location": "PROFILE_PERSONAL_LOCATION",
+    "dob": "PROFILE_PERSONAL_DOB",
+    "politicalView": "PROFILE_PERSONAL_POLITICAL_VIEW",
+    "invite": "INVITE",
+    "inviteInstall": "INVITE_INSTALL"
+  },
+  "statusCode": {
+    "400": "Bad Request",
+    "401": "Unauthorized",
+    "402": "PaymentRequired",
+    "403": "Forbidden",
+    "404": "Not Found",
+    "405": "Method No Allowed",
+    "406": "Not Acceptable",
+    "407": "Proxy Authentication Required",
+    "408": "Request Timeout",
+    "409": "Coflict",
+    "410": "Gone",
+    "411": "Length Required",
+    "412": "Preconditon Failed",
+    "413": "Payload To Large",
+    "414": "URI Too Long",
+    "415": "Unsupportd Media Type",
+    "416": "Range NotSatisfiable",
+    "417": "Expectation Failed",
+    "421": "Misdirectd Request",
+    "422": "Unprcessable Entity",
+    "423": "Locked",
+    "424": "Failed Deendency",
+    "426": "Upgrade Required",
+    "428": "Preconditon Required",
+    "429": "Too Many equests",
+    "431": "Request Header Fields Too Large",
+    "451": "Unavailabe For Legal Reasons",
+    "500": "Internal erver Error",
+    "501": "Not Implemnted",
+    "502": "Bad Gateway",
+    "503": "Service Uavailable",
+    "504": "Gateway Tmeout",
+    "505": "HTTP Verson Not Supported",
+    "506": "Variant Aso Negotiates",
+    "507": "Insufficint Storage",
+    "508": "Loop Detected",
+    "510": "Not Extended",
+    "511": "Network Authentication Required"  
+  },
+  "searchResultsParameters": {
+    "friendsFields": "user_id name image_id location_city age score interest",
+    "professionalsFields": "user_id name image_id location_city score skill",
+    "serviceProviderFields": "name location_city image_id user_id score",
+    "freelancersFields": "name location_city skills image_id user_id score skill",
+    "employeesFields": "user_id name image_id location_city score skill",
+    "othersFields": "name location_city age image_id user_id score interest",
+    "businessFields":"name parameters experience user_id"
+  },
+  "searchParameters": {
+    "friends": "friends",
+    "freelancers": "freelancers",
+    "serviceProviders": "serviceProviders",
+    "employees": "employees",
+    "professionals": "professionals",
+    "others": "others",
+    "business":"business"
+  },
+  "purpose": {
+    "male": 8,
+    "female": 9,
+    "both": 10
+  },
+  "auxCards": {
+    "selfAssessmentInfo": "PRECARD_SA",
+    "selfAssessment": "SELF_ASSESSMENT",
+    "selfAssessmentReward": "REWARD_SA",
+    "reviewReward": "REWARD_REVIEW",
+    "cooldown": "RADS_COOL_REVIEWER",
+    "selfAssessmentIgnore": "INFO_SA_IGNORE",
+    "infoSARewardCardPositive": "INFO_SA_POSITIVE",
+    "infoRcSecond": "INFO_RC_SECOND",
+    "rc1Reward": "REWARD_RC_FIRST",
+    "rc4Info": "INFO_SECRET_ANONYMOUS_REVIEWS",
+    "earnPoints":"EARN_POINTS",
+    "searchGuide1":"SEARCH_GUIDE_1",
+    "searchGuide2":"SEARCH_GUIDE_2",
+    "searchGuide3":"SEARCH_GUIDE_3"
+  },
+  "cardStatus": {
+    "served": "SERVED",
+    "new": "NEW",
+    "used": "USED"
+  },
+  "rcSource": {
+    "contact": "CONTACT",
+    "celebrity": "CELEBRITY",
+    "self": "SELF"
+  },
+  "cardType": {
+    "aux": "AUX",
+    "review": "REVIEW",
+    "web": "WEB"
+  },
+  "weightCode": {
+    "selfAssessment": "SELF_ASSESSMENT",
+    "userContact": "USER_IN_CONTACT_LIST"
+  },
+  "cardAction": {
+    "positive": "POSITIVE",
+    "ignore": "IGNORE",
+    "negative": "NEGATIVE"
+  },
+  "dynamicLink": {
+    "inviteLink": "http://trustze.com/?invite=",
+    "androidPackageName": "com.trustze",
+    "iosBundleId": "com.trustze",
+    "domainUriPrefix": "trustze.page.link",
+    "iosAppId":"1495314369",
+    "teamId":"ZA84FUA746"
+  },
+  "dynamicLinkUrl": "https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=",
+  "Avatars": {
+    "male": {
+      "agegroup1": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar7.png",
+      "agegroup2": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar8.png",
+      "agegroup3": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar9.png",
+      "agegroup4": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar10.png",
+      "agegroup5": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar11.png",
+      "agegroup6": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar12.png"
+    },
+    "female": {
+      "agegroup1": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar1.png",
+      "agegroup2": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar2.png",
+      "agegroup3": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar3.png",
+      "agegroup4": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar4.png",
+      "agegroup5": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar5.png",
+      "agegroup6": "https://esocialbucket.s3.ap-south-1.amazonaws.com/avatars/Avatar6.png"
+    }
+  },
+  "radsMessage":{
+    "lowScoreContinuous":"“The world is not your punching bag and you need to cool down . You can continue to review only after you have cooled down.”",
+    "sameParameter":"You can review ##PH1 on ##PH2 after ##PH3 more days"
+  },
+  "reviewTimeHours":24,
+  "revieweeTimeHours":24,
+  "orgFields":{
+    "department":"department",
+    "sub_department":"sub_department",
+    "team":"team"
+  },
+  "contest": {
+    "1": ["twentyfive", 25],
+    "2": ["fifty", 50],
+    "3": ["seventyfive", 75],
+    "4": ["hundred", 100]
+  },
+  "emailsForFeedback":"payal@esocialrating.com,adesh@esocialrating.com,siddharth@esocialrating.com,vikas@esocialrating.com",
+  "subjectFeedbackEmail":"New feedback arrived from user",
+  "defaultRelationshipId":0
+}
